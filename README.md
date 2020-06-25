@@ -13,7 +13,7 @@ MARK: - fatalError() vs assertionFailure() vs preconditionfailure()
     3. Calling fatalError()
     — which you have probably seen in Xcode-generated implementations of init(coder:) when subclassing an NSCoding-conforming system class, such as UIViewController. Calling this directly kills your process.
 
-update:  June 6 Sat
+# update:  June 6 Sat
 
     1. Display a list of Students from the Database
     2. There should be a way to save Student record in the Database
@@ -22,13 +22,29 @@ update:  June 6 Sat
     5. Follow good UI/UX
     6. using NSFetchedResultsController, NSSortDescriptor, searchBar, and some small things
 
-Update: June 7 Sun
+# Update: June 7 Sun
     
     1. fix bugs ->  delete multiple objects, can not create same id, optimize code
     
-Update: June 8 Mon
+# Update: June 8 Mon
 
     1. add search bar scope
     2. coreData manager 
     3. save image data to core data
     4. optimized the code
+
+# Update: June 9 Tue
+
+    1. add filter with sliding menu
+    2. add sort with picker view
+    3. coreData light migration
+    4. multi-entities
+    
+# Update: June 10 Wed
+
+CoreData Concurrency
+    
+    1. mainQueueType
+    2. privateQueueType
+    3. perform() & performAndWait()
+    4.......
